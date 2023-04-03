@@ -1,4 +1,4 @@
-package com.example.etsymockapp
+package com.example.etsymockapp.Models
 
 import com.google.gson.annotations.SerializedName
 

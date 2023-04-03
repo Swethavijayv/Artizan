@@ -41,12 +41,14 @@
         android:gravity="center"
         android:foregroundGravity="center"
         android:id="@+id/updatesspanel">
-        <ImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:layout_width="110dp"
             android:layout_height="110dp"
-            android:src="@drawable/etsycart"
+            android:src="@drawable/cart_art"
+            android:background="#a9a9a9"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
             >
-        </ImageView>
+        </com.google.android.material.imageview.ShapeableImageView>
         <TextView
             android:layout_marginTop="13dp"
             android:layout_width="wrap_content"
@@ -54,14 +56,14 @@
             android:textSize="20dp"
             android:fontFamily="serif"
             android:textColor="@color/black"
-            android:text="It's empty... for now.">
+            android:text="It's aweful lonely here">
         </TextView>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:textColor="@color/black"
-            android:text="Need some inspiration?">
+            android:text="Need some ideas?">
         </TextView>
 
         <androidx.appcompat.widget.AppCompatButton

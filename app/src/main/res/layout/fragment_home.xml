@@ -45,7 +45,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="32dp"
                     app:layout_constraintStart_toStartOf="@+id/searchbutton"
-                    app:queryHint="Search for anything on Etsy"
+                    app:queryHint="Search for anything on Artizan"
                     app:searchIcon="@null"
                     app:iconifiedByDefault="false"
                     app:queryBackground="@android:color/transparent"
@@ -82,16 +82,18 @@
                 android:layout_height="340dp"
                 android:orientation="vertical"
                 android:gravity="center_horizontal"
-                android:background="@color/pale_blue"
+                android:background="#FFC9CE"
                 android:id="@+id/homepanel"
                 android:layout_marginBottom="16dp">
-                <ImageView
+                <com.google.android.material.imageview.ShapeableImageView
                     android:layout_width="110dp"
                     android:layout_height="110dp"
-                    android:src="@drawable/etsyhome"
                     android:layout_marginTop="68dp"
+                    android:src="@drawable/home_art"
+                    android:background="@color/white"
+                    app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
                     >
-                </ImageView>
+                </com.google.android.material.imageview.ShapeableImageView>
                 <TextView
                     android:layout_marginTop="13dp"
                     android:layout_width="wrap_content"
@@ -99,21 +101,21 @@
                     android:textSize="20dp"
                     android:fontFamily="serif"
                     android:textColor="@color/black"
-                    android:text="Explore a world of inspiration">
+                    android:text="Unleash a universe of creativity!">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:textColor="@color/black"
-                    android:text="Sign in now to save your favorite items and get">
+                    android:text="Simply sign in to safeguard your favorites">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"
 
-                    android:text="personalized recommendations">
+                    android:text="and receive tailored recommendations">
                 </TextView>
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/signinbutton"

@@ -33,12 +33,14 @@
         android:gravity="center"
         android:foregroundGravity="center"
         android:id="@+id/updatesspanel">
-        <ImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:layout_width="110dp"
             android:layout_height="110dp"
-            android:src="@drawable/etsyupdates"
+            android:src="@drawable/updates_art"
+            android:background="#a9a9a9"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
             >
-        </ImageView>
+        </com.google.android.material.imageview.ShapeableImageView>
         <TextView
             android:layout_marginTop="13dp"
             android:layout_width="wrap_content"
@@ -46,20 +48,20 @@
             android:textSize="20dp"
             android:fontFamily="serif"
             android:textColor="@color/black"
-            android:text="No updates... yet.">
+            android:text="No news...just yet">
         </TextView>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:textColor="@color/black"
-            android:text="Sign in to stay up to date on your">
+            android:text="Be in the know! Sign in to stay up to date">
         </TextView>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="favorite items and shops">
+            android:text="with your much-loved items and shops">
         </TextView>
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/signinbutton"
