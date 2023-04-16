@@ -1,5 +1,5 @@
-<h1>🏪 Marketplace Platform App</h1>
-Welcome to the Marketplace Platform App! This app is a modern and user-friendly e-commerce marketplace platform for businesses and artisans to sell their products.
+<h1>🏪 Artizan</h1>
+Welcome Artizan! This app is a modern and user-friendly e-commerce marketplace platform for businesses and artisans to sell their products.
 
 <h2>📷 Screenshots</h2>
 
