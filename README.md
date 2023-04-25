@@ -4,8 +4,9 @@ Welcome Artizan! This app is a modern and user-friendly e-commerce marketplace p
 <h2>📷 Screenshots</h2>
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/92000949/226113925-f5c98c44-9aba-4e26-ac9c-6406e960aee2.jpg" width="300" /> 
+  <img src="https://user-images.githubusercontent.com/92000949/234332157-6a429b86-864d-4737-bc86-017ec99ec590.png" width="1200" /> 
 </p>
+
 
 <h2>🎯 Features</h2>
 
